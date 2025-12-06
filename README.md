@@ -2,9 +2,15 @@
 
 **Comprehensive toy implementations of the 30 foundational papers recommended by Ilya Sutskever**
 
+[![Implementations](https://img.shields.io/badge/Implementations-20%2F30-brightgreen)](https://github.com/pageman/sutskever-30-implementations)
+[![Coverage](https://img.shields.io/badge/Coverage-67%25-blue)](https://github.com/pageman/sutskever-30-implementations)
+[![Python](https://img.shields.io/badge/Python-NumPy%20Only-yellow)](https://numpy.org/)
+
 ## Overview
 
 This repository contains detailed, educational implementations of the papers from Ilya Sutskever's famous reading list - the collection he told John Carmack would teach you "90% of what matters" in deep learning.
+
+**Progress: 20/30 papers (67%) implemented!**
 
 Each implementation:
 - ✅ Uses only NumPy (no deep learning frameworks) for educational clarity
@@ -32,48 +38,51 @@ jupyter notebook 02_char_rnn_karpathy.ipynb
 
 | # | Paper | Notebook | Key Concepts |
 |---|-------|----------|--------------|
-| 1 | The First Law of Complexodynamics | `01_complexity_dynamics.ipynb` | Entropy, Complexity Growth, Cellular Automata |
-| 2 | The Unreasonable Effectiveness of RNNs | `02_char_rnn_karpathy.ipynb` | Character-level models, RNN basics, Text generation |
-| 3 | Understanding LSTM Networks | `03_lstm_understanding.ipynb` | Gates, Long-term memory, Gradient flow |
-| 4 | RNN Regularization | [See IMPLEMENTATION_TRACKS.md] | Dropout for sequences, Variational dropout |
-| 5 | Keeping Neural Networks Simple | [See IMPLEMENTATION_TRACKS.md] | MDL principle, Weight pruning |
+| 1 | The First Law of Complexodynamics | ✅ `01_complexity_dynamics.ipynb` | Entropy, Complexity Growth, Cellular Automata |
+| 2 | The Unreasonable Effectiveness of RNNs | ✅ `02_char_rnn_karpathy.ipynb` | Character-level models, RNN basics, Text generation |
+| 3 | Understanding LSTM Networks | ✅ `03_lstm_understanding.ipynb` | Gates, Long-term memory, Gradient flow |
+| 4 | RNN Regularization | ✅ `04_rnn_regularization.ipynb` | Dropout for sequences, Variational dropout |
+| 5 | Keeping Neural Networks Simple | [Planned] | MDL principle, Weight pruning |
 
 ### Architectures & Mechanisms (Papers 6-15)
 
 | # | Paper | Notebook | Key Concepts |
 |---|-------|----------|--------------|
-| 6 | Pointer Networks | `06_pointer_networks.ipynb` | Attention as pointer, Combinatorial problems |
-| 7 | ImageNet/AlexNet | [See IMPLEMENTATION_TRACKS.md] | CNNs, Convolution, Data augmentation |
-| 8 | Order Matters: Seq2Seq for Sets | [See IMPLEMENTATION_TRACKS.md] | Set encoding, Permutation invariance |
-| 9 | GPipe | [See IMPLEMENTATION_TRACKS.md] | Pipeline parallelism, Model parallelism |
-| 10 | Deep Residual Learning (ResNet) | `10_resnet_deep_residual.ipynb` | Skip connections, Gradient highways |
-| 11 | Dilated Convolutions | [See IMPLEMENTATION_TRACKS.md] | Receptive fields, Multi-scale |
-| 12 | Neural Message Passing | [See IMPLEMENTATION_TRACKS.md] | Graph networks, Message passing |
-| 13 | **Attention Is All You Need** | `13_attention_is_all_you_need.ipynb` | Transformers, Self-attention, Multi-head |
-| 14 | Neural Machine Translation | [See IMPLEMENTATION_TRACKS.md] | Seq2seq, Bahdanau attention |
-| 15 | Identity Mappings in ResNet | [See IMPLEMENTATION_TRACKS.md] | Pre-activation, Gradient flow |
+| 6 | Pointer Networks | ✅ `06_pointer_networks.ipynb` | Attention as pointer, Combinatorial problems |
+| 7 | ImageNet/AlexNet | ✅ `07_alexnet_cnn.ipynb` | CNNs, Convolution, Data augmentation |
+| 8 | Order Matters: Seq2Seq for Sets | [Planned] | Set encoding, Permutation invariance |
+| 9 | GPipe | [Planned] | Pipeline parallelism, Model parallelism |
+| 10 | Deep Residual Learning (ResNet) | ✅ `10_resnet_deep_residual.ipynb` | Skip connections, Gradient highways |
+| 11 | Dilated Convolutions | ✅ `11_dilated_convolutions.ipynb` | Receptive fields, Multi-scale |
+| 12 | Neural Message Passing (GNNs) | ✅ `12_graph_neural_networks.ipynb` | Graph networks, Message passing |
+| 13 | **Attention Is All You Need** | ✅ `13_attention_is_all_you_need.ipynb` | Transformers, Self-attention, Multi-head |
+| 14 | Neural Machine Translation | ✅ `14_bahdanau_attention.ipynb` | Seq2seq, Bahdanau attention |
+| 15 | Identity Mappings in ResNet | ✅ `15_identity_mappings_resnet.ipynb` | Pre-activation, Gradient flow |
 
 ### Advanced Topics (Papers 16-22)
 
 | # | Paper | Notebook | Key Concepts |
 |---|-------|----------|--------------|
-| 16 | Relational Reasoning | [See IMPLEMENTATION_TRACKS.md] | Relation networks, Pairwise functions |
-| 17 | **Variational Lossy Autoencoder** | `17_variational_autoencoder.ipynb` | VAE, ELBO, Reparameterization trick |
-| 18 | Relational RNNs | [See IMPLEMENTATION_TRACKS.md] | Relational memory, Self-attention in RNN |
-| 19 | The Coffee Automaton | `01_complexity_dynamics.ipynb` | Irreversibility, Mixing, Complexity |
-| 20 | **Neural Turing Machines** | `20_neural_turing_machine.ipynb` | External memory, Differentiable addressing |
-| 21 | Deep Speech 2 | [See IMPLEMENTATION_TRACKS.md] | CTC loss, Speech recognition |
-| 22 | **Scaling Laws** | `22_scaling_laws.ipynb` | Power laws, Compute-optimal training |
+| 16 | Relational Reasoning | ✅ `16_relational_reasoning.ipynb` | Relation networks, Pairwise functions |
+| 17 | **Variational Lossy Autoencoder** | ✅ `17_variational_autoencoder.ipynb` | VAE, ELBO, Reparameterization trick |
+| 18 | Relational RNNs | [Planned] | Relational memory, Self-attention in RNN |
+| 19 | The Coffee Automaton | ✅ `01_complexity_dynamics.ipynb` | Irreversibility, Mixing, Complexity |
+| 20 | **Neural Turing Machines** | ✅ `20_neural_turing_machine.ipynb` | External memory, Differentiable addressing |
+| 21 | Deep Speech 2 (CTC) | ✅ `21_ctc_speech.ipynb` | CTC loss, Speech recognition |
+| 22 | **Scaling Laws** | ✅ `22_scaling_laws.ipynb` | Power laws, Compute-optimal training |
 
 ### Theory & Meta-Learning (Papers 23-30)
 
 | # | Paper | Notebook | Key Concepts |
 |---|-------|----------|--------------|
-| 23 | MDL Principle | [See IMPLEMENTATION_TRACKS.md] | Information theory, Model selection |
+| 23 | MDL Principle | [Planned] | Information theory, Model selection |
 | 24 | Machine Super Intelligence | N/A (Theoretical) | AGI, Intelligence metrics |
-| 25 | Kolmogorov Complexity | [See IMPLEMENTATION_TRACKS.md] | Compression, Complexity theory |
+| 25 | Kolmogorov Complexity | [Planned] | Compression, Complexity theory |
 | 26 | CS231n | N/A (Course) | CNNs, Computer vision |
-| 27-30 | Modern papers (Multi-token, RAG, etc.) | [See IMPLEMENTATION_TRACKS.md] | Recent advances |
+| 27 | Multi-token Prediction | [Planned] | Future token prediction |
+| 28 | Dense Passage Retrieval | ✅ `28_dense_passage_retrieval.ipynb` | Dual encoders, MIPS, In-batch negatives |
+| 29 | Retrieval-Augmented Generation | ✅ `29_rag.ipynb` | RAG-Sequence, RAG-Token, Knowledge retrieval |
+| 30 | Lost in the Middle | ✅ `30_lost_in_middle.ipynb` | Position bias, Long context, U-shaped curve |
 
 ## Featured Implementations
 
@@ -81,6 +90,7 @@ jupyter notebook 02_char_rnn_karpathy.ipynb
 
 These implementations cover the most influential papers and demonstrate core deep learning concepts:
 
+#### Foundations
 1. **`02_char_rnn_karpathy.ipynb`** - Character-level RNN
    - Build RNN from scratch
    - Understand backpropagation through time
@@ -91,66 +101,164 @@ These implementations cover the most influential papers and demonstrate core dee
    - Visualize gate activations
    - Compare with vanilla RNN
 
-3. **`10_resnet_deep_residual.ipynb`** - ResNet
+3. **`04_rnn_regularization.ipynb`** - RNN Regularization
+   - Variational dropout for RNNs
+   - Proper dropout placement
+   - Training improvements
+
+#### Computer Vision
+4. **`07_alexnet_cnn.ipynb`** - CNNs & AlexNet
+   - Convolutional layers from scratch
+   - Max pooling and ReLU
+   - Data augmentation techniques
+
+5. **`10_resnet_deep_residual.ipynb`** - ResNet
    - Skip connections solve degradation
    - Gradient flow visualization
    - Identity mapping intuition
 
-4. **`13_attention_is_all_you_need.ipynb`** - Transformers
+6. **`15_identity_mappings_resnet.ipynb`** - Pre-activation ResNet
+   - Pre-activation vs post-activation
+   - Better gradient flow
+   - Training 1000+ layer networks
+
+7. **`11_dilated_convolutions.ipynb`** - Dilated Convolutions
+   - Multi-scale receptive fields
+   - No pooling required
+   - Semantic segmentation
+
+#### Attention & Transformers
+8. **`14_bahdanau_attention.ipynb`** - Neural Machine Translation
+   - Original attention mechanism
+   - Seq2seq with alignment
+   - Attention visualization
+
+9. **`13_attention_is_all_you_need.ipynb`** - Transformers
    - Scaled dot-product attention
    - Multi-head attention
    - Positional encoding
    - Foundation of modern LLMs
 
-5. **`20_neural_turing_machine.ipynb`** - Memory-Augmented Networks
-   - Content & location addressing
-   - Differentiable read/write
-   - External memory
+10. **`06_pointer_networks.ipynb`** - Pointer Networks
+    - Attention as selection
+    - Combinatorial optimization
+    - Variable output size
 
-6. **`17_variational_autoencoder.ipynb`** - VAE
-   - Generative modeling
-   - ELBO loss
-   - Latent space visualization
+#### Advanced Topics
+11. **`12_graph_neural_networks.ipynb`** - Graph Neural Networks
+    - Message passing framework
+    - Graph convolutions
+    - Molecular property prediction
 
-7. **`22_scaling_laws.ipynb`** - Scaling Laws
-   - Power law relationships
-   - Compute-optimal training
-   - Performance prediction
+12. **`16_relational_reasoning.ipynb`** - Relation Networks
+    - Pairwise relational reasoning
+    - Visual QA
+    - Permutation invariance
+
+13. **`20_neural_turing_machine.ipynb`** - Memory-Augmented Networks
+    - Content & location addressing
+    - Differentiable read/write
+    - External memory
+
+14. **`21_ctc_speech.ipynb`** - CTC Loss & Speech Recognition
+    - Connectionist Temporal Classification
+    - Alignment-free training
+    - Forward algorithm
+
+#### Generative Models
+15. **`17_variational_autoencoder.ipynb`** - VAE
+    - Generative modeling
+    - ELBO loss
+    - Latent space visualization
+
+#### Modern Applications
+16. **`28_dense_passage_retrieval.ipynb`** - Dense Retrieval
+    - Dual encoder architecture
+    - In-batch negatives
+    - Semantic search
+
+17. **`29_rag.ipynb`** - Retrieval-Augmented Generation
+    - RAG-Sequence vs RAG-Token
+    - Combining retrieval + generation
+    - Knowledge-grounded outputs
+
+18. **`30_lost_in_middle.ipynb`** - Long Context Analysis
+    - Position bias in LLMs
+    - U-shaped performance curve
+    - Document ordering strategies
+
+#### Scaling & Theory
+19. **`22_scaling_laws.ipynb`** - Scaling Laws
+    - Power law relationships
+    - Compute-optimal training
+    - Performance prediction
+
+20. **`01_complexity_dynamics.ipynb`** - Complexity & Entropy
+    - Cellular automata (Rule 30)
+    - Entropy growth
+    - Irreversibility
 
 ## Repository Structure
 
 ```
 sutskever-30-implementations/
 ├── README.md                           # This file
+├── PROGRESS.md                         # Implementation progress tracking
 ├── IMPLEMENTATION_TRACKS.md            # Detailed tracks for all 30 papers
 │
 ├── 01_complexity_dynamics.ipynb        # Entropy & complexity
 ├── 02_char_rnn_karpathy.ipynb         # Vanilla RNN
 ├── 03_lstm_understanding.ipynb         # LSTM gates
+├── 04_rnn_regularization.ipynb         # Dropout for RNNs
 ├── 06_pointer_networks.ipynb           # Attention pointers
+├── 07_alexnet_cnn.ipynb               # CNNs & AlexNet
 ├── 10_resnet_deep_residual.ipynb      # Residual connections
-├── 13_attention_is_all_you_need.ipynb # Transformer
+├── 11_dilated_convolutions.ipynb       # Multi-scale convolutions
+├── 12_graph_neural_networks.ipynb      # Message passing GNNs
+├── 13_attention_is_all_you_need.ipynb # Transformer architecture
+├── 14_bahdanau_attention.ipynb         # Original attention
+├── 15_identity_mappings_resnet.ipynb   # Pre-activation ResNet
+├── 16_relational_reasoning.ipynb       # Relation networks
 ├── 17_variational_autoencoder.ipynb   # VAE
 ├── 20_neural_turing_machine.ipynb     # External memory
-└── 22_scaling_laws.ipynb              # Empirical scaling
+├── 21_ctc_speech.ipynb                # CTC loss
+├── 22_scaling_laws.ipynb              # Empirical scaling
+├── 28_dense_passage_retrieval.ipynb    # Dense retrieval
+├── 29_rag.ipynb                       # RAG architecture
+└── 30_lost_in_middle.ipynb            # Long context analysis
 ```
+
+**20 out of 30 papers implemented! (67% complete)**
 
 ## Learning Path
 
 ### Beginner Track (Start here!)
-1. Character RNN (`02_char_rnn_karpathy.ipynb`)
-2. LSTM (`03_lstm_understanding.ipynb`)
-3. ResNet (`10_resnet_deep_residual.ipynb`)
-4. VAE (`17_variational_autoencoder.ipynb`)
+1. **Character RNN** (`02_char_rnn_karpathy.ipynb`) - Learn basic RNNs
+2. **LSTM** (`03_lstm_understanding.ipynb`) - Understand gating mechanisms
+3. **CNNs** (`07_alexnet_cnn.ipynb`) - Computer vision fundamentals
+4. **ResNet** (`10_resnet_deep_residual.ipynb`) - Skip connections
+5. **VAE** (`17_variational_autoencoder.ipynb`) - Generative models
 
 ### Intermediate Track
-5. Pointer Networks (`06_pointer_networks.ipynb`)
-6. Attention/Transformers (`13_attention_is_all_you_need.ipynb`)
-7. Scaling Laws (`22_scaling_laws.ipynb`)
+6. **RNN Regularization** (`04_rnn_regularization.ipynb`) - Better training
+7. **Bahdanau Attention** (`14_bahdanau_attention.ipynb`) - Attention basics
+8. **Pointer Networks** (`06_pointer_networks.ipynb`) - Attention as selection
+9. **Transformers** (`13_attention_is_all_you_need.ipynb`) - Modern architecture
+10. **Dilated Convolutions** (`11_dilated_convolutions.ipynb`) - Receptive fields
+11. **Scaling Laws** (`22_scaling_laws.ipynb`) - Understanding scale
 
 ### Advanced Track
-8. Neural Turing Machines (`20_neural_turing_machine.ipynb`)
-9. [Additional implementations as needed]
+12. **Pre-activation ResNet** (`15_identity_mappings_resnet.ipynb`) - Architecture details
+13. **Graph Neural Networks** (`12_graph_neural_networks.ipynb`) - Graph learning
+14. **Relation Networks** (`16_relational_reasoning.ipynb`) - Relational reasoning
+15. **Neural Turing Machines** (`20_neural_turing_machine.ipynb`) - External memory
+16. **CTC Loss** (`21_ctc_speech.ipynb`) - Speech recognition
+17. **Dense Retrieval** (`28_dense_passage_retrieval.ipynb`) - Semantic search
+18. **RAG** (`29_rag.ipynb`) - Retrieval-augmented generation
+19. **Lost in the Middle** (`30_lost_in_middle.ipynb`) - Long context analysis
+
+### Theory & Fundamentals
+20. **Complexity Dynamics** (`01_complexity_dynamics.ipynb`) - Entropy & emergence
 
 ## Key Insights from the Sutskever 30
 
@@ -268,6 +376,21 @@ Educational use. See individual papers for original research citations.
 
 ---
 
+## Latest Additions (December 2025)
+
+### Recently Implemented (8 new papers!)
+- ✅ **Paper 4**: RNN Regularization (variational dropout)
+- ✅ **Paper 7**: AlexNet (CNNs from scratch)
+- ✅ **Paper 11**: Dilated Convolutions (multi-scale)
+- ✅ **Paper 12**: Graph Neural Networks (message passing)
+- ✅ **Paper 14**: Bahdanau Attention (original attention)
+- ✅ **Paper 15**: Identity Mappings ResNet (pre-activation)
+- ✅ **Paper 16**: Relational Reasoning (relation networks)
+- ✅ **Paper 21**: Deep Speech 2 (CTC loss)
+- ✅ **Paper 28**: Dense Passage Retrieval (dual encoders)
+- ✅ **Paper 29**: RAG (retrieval-augmented generation)
+- ✅ **Paper 30**: Lost in the Middle (long context)
+
 ## Quick Reference: Implementation Complexity
 
 ### Can Implement in an Afternoon
@@ -275,14 +398,19 @@ Educational use. See individual papers for original research citations.
 - ✅ LSTM
 - ✅ ResNet
 - ✅ Simple VAE
+- ✅ Dilated Convolutions
 
 ### Weekend Projects
 - ✅ Transformer
 - ✅ Pointer Networks
+- ✅ Graph Neural Networks
+- ✅ Relation Networks
 - ✅ Neural Turing Machine
+- ✅ CTC Loss
+- ✅ Dense Retrieval
 
 ### Week-Long Deep Dives
-- ⚠️ Full training pipelines
+- ✅ Full RAG system
 - ⚠️ Large-scale experiments
 - ⚠️ Hyperparameter optimization
 
