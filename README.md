@@ -2,15 +2,15 @@
 
 **Comprehensive toy implementations of the 30 foundational papers recommended by Ilya Sutskever**
 
-[![Implementations](https://img.shields.io/badge/Implementations-24%2F30-brightgreen)](https://github.com/pageman/sutskever-30-implementations)
-[![Coverage](https://img.shields.io/badge/Coverage-80%25-blue)](https://github.com/pageman/sutskever-30-implementations)
+[![Implementations](https://img.shields.io/badge/Implementations-25%2F30-brightgreen)](https://github.com/pageman/sutskever-30-implementations)
+[![Coverage](https://img.shields.io/badge/Coverage-83%25-blue)](https://github.com/pageman/sutskever-30-implementations)
 [![Python](https://img.shields.io/badge/Python-NumPy%20Only-yellow)](https://numpy.org/)
 
 ## Overview
 
 This repository contains detailed, educational implementations of the papers from Ilya Sutskever's famous reading list - the collection he told John Carmack would teach you "90% of what matters" in deep learning.
 
-**Progress: 24/30 papers (80%) implemented!**
+**Progress: 25/30 papers (83%) implemented!**
 
 Each implementation:
 - ✅ Uses only NumPy (no deep learning frameworks) for educational clarity
@@ -75,7 +75,7 @@ jupyter notebook 02_char_rnn_karpathy.ipynb
 
 | # | Paper | Notebook | Key Concepts |
 |---|-------|----------|--------------|
-| 23 | MDL Principle | [Planned] | Information theory, Model selection |
+| 23 | MDL Principle | ✅ `23_mdl_principle.ipynb` | Information theory, Model selection, Compression |
 | 24 | Machine Super Intelligence | N/A (Theoretical) | AGI, Intelligence metrics |
 | 25 | Kolmogorov Complexity | [Planned] | Compression, Complexity theory |
 | 26 | CS231n | N/A (Course) | CNNs, Computer vision |
@@ -221,7 +221,15 @@ These implementations cover the most influential papers and demonstrate core dee
     - Compute-optimal training
     - Performance prediction
 
-24. **`01_complexity_dynamics.ipynb`** - Complexity & Entropy
+24. **`23_mdl_principle.ipynb`** - Minimum Description Length
+    - Information-theoretic model selection
+    - Compression = Understanding
+    - MDL vs AIC/BIC comparison
+    - Neural network architecture selection
+    - MDL-based pruning (connects to Paper 5)
+    - Kolmogorov complexity preview
+
+25. **`01_complexity_dynamics.ipynb`** - Complexity & Entropy
     - Cellular automata (Rule 30)
     - Entropy growth
     - Irreversibility
@@ -254,13 +262,14 @@ sutskever-30-implementations/
 ├── 20_neural_turing_machine.ipynb     # External memory
 ├── 21_ctc_speech.ipynb                # CTC loss
 ├── 22_scaling_laws.ipynb              # Empirical scaling
+├── 23_mdl_principle.ipynb             # MDL & compression
 ├── 27_multi_token_prediction.ipynb     # Multi-token prediction
 ├── 28_dense_passage_retrieval.ipynb    # Dense retrieval
 ├── 29_rag.ipynb                       # RAG architecture
 └── 30_lost_in_middle.ipynb            # Long context analysis
 ```
 
-**24 out of 30 papers implemented! (80% complete)**
+**25 out of 30 papers implemented! (83% complete)**
 
 ## Learning Path
 
@@ -291,7 +300,8 @@ sutskever-30-implementations/
 20. **Lost in the Middle** (`30_lost_in_middle.ipynb`) - Long context analysis
 
 ### Theory & Fundamentals
-21. **Complexity Dynamics** (`01_complexity_dynamics.ipynb`) - Entropy & emergence
+21. **MDL Principle** (`23_mdl_principle.ipynb`) - Model selection via compression
+22. **Complexity Dynamics** (`01_complexity_dynamics.ipynb`) - Entropy & emergence
 
 ## Key Insights from the Sutskever 30
 
@@ -411,7 +421,7 @@ Educational use. See individual papers for original research citations.
 
 ## Latest Additions (December 2025)
 
-### Recently Implemented (15 new papers!)
+### Recently Implemented (16 new papers!)
 - ✅ **Paper 4**: RNN Regularization (variational dropout)
 - ✅ **Paper 5**: Neural Network Pruning (MDL, 90%+ sparsity)
 - ✅ **Paper 7**: AlexNet (CNNs from scratch)
@@ -423,6 +433,7 @@ Educational use. See individual papers for original research citations.
 - ✅ **Paper 16**: Relational Reasoning (relation networks)
 - ✅ **Paper 18**: Relational RNNs (relational memory + Section 11: manual backprop ~1100 lines)
 - ✅ **Paper 21**: Deep Speech 2 (CTC loss)
+- ✅ **Paper 23**: MDL Principle (compression, model selection, connects Paper 5 & 25)
 - ✅ **Paper 27**: Multi-Token Prediction (2-3x sample efficiency)
 - ✅ **Paper 28**: Dense Passage Retrieval (dual encoders)
 - ✅ **Paper 29**: RAG (retrieval-augmented generation)
