@@ -43,86 +43,90 @@ jupyter notebook 02_char_rnn_karpathy.ipynb
 [[Twitter Post]](https://twitter.com/keshavchan/status/1787861946173186062) [[Arc.net Link]](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
 <br>
 
-## 
+## Original Link
 
-- **The Annotated Transformer.** Sasha Rush, et al. [[Blog]](https://nlp.seas.harvard.edu/annotated-transformer/) [[Code]](https://github.com/harvardnlp/annotated-transformer/)
-- **The First Law of Complexodynamics.** Scott Aaronson. [[Blog]](https://scottaaronson.blog/?p=762)
-- **The Unreasonable Effectiveness of Recurrent Neural Networks.** Andrej Karpathy. [[Blog]](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) [[Code]](https://github.com/karpathy/char-rnn)
-- **Understanding LSTM Networks.** Christopher Olah. [[Blog]](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-- **Recurrent Neural Network Regularization.** Wojciech Zaremba, et al. [[ArXiv]](https://arxiv.org/abs/1409.2329) [[pdf]](https://arxiv.org/pdf/1409.2329) [[Code]](https://github.com/wojzaremba/lstm)
-- **Keeping Neural Networks Simple by Minimizing the Description Length of the Weights.** Geoffrey E. Hinton and Drew van Camp. [[Paper]](https://dl.acm.org/doi/10.1145/168304.168306) [[pdf]](https://www.cs.toronto.edu/~hinton/absps/colt93.pdf)
-- **Pointer Networks.** Oriol Vinyals, et al. [[Paper]](https://papers.nips.cc/paper/5866-pointer-networks) [[pdf]](https://arxiv.org/pdf/1506.03134)
-- **ImageNet Classification with Deep Convolutional Neural Networks.** Alex Krizhevsky, et al. [[Paper]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) [[pdf]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-- **Order Matters: Sequence to sequence for sets.** Oriol Vinyals, et al. [[ArXiv]](https://arxiv.org/abs/1511.06391) [[pdf]](https://arxiv.org/pdf/1511.06391)
-- **GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism.** Yanping Huang, et al. [[ArXiv]](https://arxiv.org/abs/1811.06965) [[pdf]](https://arxiv.org/pdf/1811.06965)
-- **Deep Residual Learning for Image Recognition.** Kaiming He, et al.
-- **Multi-Scale Context Aggregation by Dilated Convolutions.** Fisher Yu and Vladlen Koltun.
-- **Neural Message Passing for Quantum Chemistry.** Justin Gilmer, et al.
-- **Attention Is All You Need.** Ashish Vaswani, et al.
-- **Neural Machine Translation by Jointly Learning to Align and Translate.** Dzmitry Bahdanau, et al.
-- **Identity Mappings in Deep Residual Networks.** Kaiming He, et al.
-- **A simple neural network module for relational reasoning.** Adam Santoro, et al.
-- **Variational Lossy Autoencoder.** Xi Chen, et al.
-- **Relational recurrent neural networks.** Adam Santoro, et al.
-- **Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton.** Scott Aaronson, et al.
-- **Neural Turing Machines.** Alex Graves, et al.
-- **Deep Speech 2: End-to-End Speech Recognition in English and Mandarin.** Dario Amodei, et al.
-- **Scaling Laws for Neural Language Models.** Jared Kaplan, et al.
-- **A Tutorial Introduction to the Minimum Description Length Principle.** Peter Grunwald.
-- **Machine Super Intelligence.** Shane Legg.
-- **Kolmogorov Complexity and Algorithmic Randomness.** A.Shen, V. A. Uspensky, and N. Vereshchagin.
-- **CS231n: Convolutional Neural Networks for Visual Recognition.**
+- [Ilya 30u30 arc.net folder](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
+- [Ilya 30u30 folder - archive.today](https://archive.is/aciJR)
+
+## Resources List
+
+- [The Annotated Transformer — blog](https://nlp.seas.harvard.edu/annotated-transformer/)
+- [The First Law of Complexodynamics — blog](https://scottaaronson.blog/?p=762)
+- [The Unreasonable Effectiveness of Recurrent Neural Networks — (Andrej Karpathy blog)](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- [Understanding LSTM Networks – colah’s blog — blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Recurrent Neural Network Regularization — arxiv.org](https://arxiv.org/pdf/1409.2329.pdf)
+- [Keeping NN Simple by Minimizing the Description Legnth of the Weights — PDF](https://www.cs.toronto.edu/~hinton/absps/colt93.pdf)
+- [Pointer Networks — arxiv.org](https://arxiv.org/pdf/1506.03134.pdf)
+- [ImageNet Classification with Deep Convolutional Neural Networks — PDF](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+- [Order Matters: Sequence to sequence for sets — arxiv.org](https://arxiv.org/pdf/1511.06391.pdf)
+- [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism — arxiv.org](https://arxiv.org/pdf/1811.06965.pdf)
+- [Deep Residual Learning for Image Recognition — arxiv.org](https://arxiv.org/pdf/1512.03385.pdf)
+- [Multi-Scale Context Aggregation by Dilated Convolutions — arxiv.org](https://arxiv.org/pdf/1511.07122.pdf)
+- [Neural Message Passing for Quantum Chemistry — arxiv.org](https://arxiv.org/pdf/1704.01212.pdf)
+- [Attention Is All You Need — arxiv.org](https://arxiv.org/pdf/1706.03762.pdf)
+- [Neural Machine Translation by Jointly Learning to Align and Translate — arxiv.org](https://arxiv.org/pdf/1409.0473.pdf)
+- [Identity Mappings in Deep Residual Networks — arxiv.org](https://arxiv.org/pdf/1603.05027.pdf)
+- [A simple neural network module for relational reasoning — arxiv.org](https://arxiv.org/pdf/1706.01427.pdf)
+- [Variational Lossy Autoencoder — arxiv.org](https://arxiv.org/pdf/1611.02731.pdf)
+- [Relational recurrent neural networks — arxiv.org](https://arxiv.org/pdf/1806.01822.pdf)
+- [Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton — arxiv.org](https://arxiv.org/pdf/1405.6903.pdf)
+- [Neural Turing Machines — arxiv.org](https://arxiv.org/pdf/1410.5401.pdf)
+- [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin — arxiv.org](https://arxiv.org/pdf/1512.02595.pdf)
+- [Scaling Laws for Neural Language Models — arxiv.org](https://arxiv.org/pdf/2001.08361.pdf)
+- [A tutorial introduction to the minimum description length principle — arxiv.org](https://arxiv.org/pdf/math/0406077.pdf)
+- [Machine Super Intelligence by Shane Legg | BookVersion.dvi — book](https://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
+- [Kolmogorov Complexity and Algorithmic Randomness | lirmm.fr — book](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf)
+- [CS231n Convolutional Neural Networks for Visual Recognition — course](https://cs231n.github.io/)
 
 ### Foundational Concepts (Papers 1-5)
 
-| # | Paper | Notebook | Key Concepts |
-|---|-------|----------|--------------|
-| 1 | The First Law of Complexodynamics | ✅ `01_complexity_dynamics.ipynb` | Entropy, Complexity Growth, Cellular Automata |
-| 2 | The Unreasonable Effectiveness of RNNs | ✅ `02_char_rnn_karpathy.ipynb` | Character-level models, RNN basics, Text generation |
-| 3 | Understanding LSTM Networks | ✅ `03_lstm_understanding.ipynb` | Gates, Long-term memory, Gradient flow |
-| 4 | RNN Regularization | ✅ `04_rnn_regularization.ipynb` | Dropout for sequences, Variational dropout |
-| 5 | Keeping Neural Networks Simple | ✅ `05_neural_network_pruning.ipynb` | MDL principle, Weight pruning, 90%+ sparsity |
+| # | Paper | Notebook | Key Concepts |Links  |
+|---|-------|----------|--------------|-------|
+| 1 | The First Law of Complexodynamics | ✅ `01_complexity_dynamics.ipynb` | Entropy, Complexity Growth, Cellular Automata |[[Blog]](https://scottaaronson.blog/?p=762 ) |
+| 2 | The Unreasonable Effectiveness of RNNs | ✅ `02_char_rnn_karpathy.ipynb` | Character-level models, RNN basics, Text generation |[[Blog]](https://karpathy.github.io/2015/05/21/rnn-effectiveness/ ) |
+| 3 | Understanding LSTM Networks | ✅ `03_lstm_understanding.ipynb` | Gates, Long-term memory, Gradient flow |[[Blog]](https://colah.github.io/posts/2015-08-Understanding-LSTMs/ ) |
+| 4 | RNN Regularization | ✅ `04_rnn_regularization.ipynb` | Dropout for sequences, Variational dropout |[[Paper]](https://arxiv.org/pdf/1409.2329.pdf ) |
+| 5 | Keeping Neural Networks Simple | ✅ `05_neural_network_pruning.ipynb` | MDL principle, Weight pruning, 90%+ sparsity |[[Paper]](https://www.cs.toronto.edu/~hinton/absps/colt93.pdf ) |
 
 ### Architectures & Mechanisms (Papers 6-15)
 
-| # | Paper | Notebook | Key Concepts |
-|---|-------|----------|--------------|
-| 6 | Pointer Networks | ✅ `06_pointer_networks.ipynb` | Attention as pointer, Combinatorial problems |
-| 7 | ImageNet/AlexNet | ✅ `07_alexnet_cnn.ipynb` | CNNs, Convolution, Data augmentation |
-| 8 | Order Matters: Seq2Seq for Sets | ✅ `08_seq2seq_for_sets.ipynb` | Set encoding, Permutation invariance, Attention pooling |
-| 9 | GPipe | ✅ `09_gpipe.ipynb` | Pipeline parallelism, Micro-batching, Re-materialization |
-| 10 | Deep Residual Learning (ResNet) | ✅ `10_resnet_deep_residual.ipynb` | Skip connections, Gradient highways |
-| 11 | Dilated Convolutions | ✅ `11_dilated_convolutions.ipynb` | Receptive fields, Multi-scale |
-| 12 | Neural Message Passing (GNNs) | ✅ `12_graph_neural_networks.ipynb` | Graph networks, Message passing |
-| 13 | **Attention Is All You Need** | ✅ `13_attention_is_all_you_need.ipynb` | Transformers, Self-attention, Multi-head |
-| 14 | Neural Machine Translation | ✅ `14_bahdanau_attention.ipynb` | Seq2seq, Bahdanau attention |
-| 15 | Identity Mappings in ResNet | ✅ `15_identity_mappings_resnet.ipynb` | Pre-activation, Gradient flow |
+| # | Paper | Notebook | Key Concepts | Links |
+|---|-------|----------|--------------|-------|
+| 6 | Pointer Networks | ✅ `06_pointer_networks.ipynb` | Attention as pointer, Combinatorial problems |[[Paper]](https://arxiv.org/pdf/1506.03134.pdf ) |
+| 7 | ImageNet/AlexNet | ✅ `07_alexnet_cnn.ipynb` | CNNs, Convolution, Data augmentation |[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf ) |
+| 8 | Order Matters: Seq2Seq for Sets | ✅ `08_seq2seq_for_sets.ipynb` | Set encoding, Permutation invariance, Attention pooling |[[Paper]](https://arxiv.org/pdf/1511.06391.pdf ) |
+| 9 | GPipe | ✅ `09_gpipe.ipynb` | Pipeline parallelism, Micro-batching, Re-materialization |[[Paper]](https://arxiv.org/pdf/1811.06965.pdf ) |
+| 10 | Deep Residual Learning (ResNet) | ✅ `10_resnet_deep_residual.ipynb` | Skip connections, Gradient highways |[[Paper]](https://arxiv.org/pdf/1512.03385.pdf ) |
+| 11 | Dilated Convolutions | ✅ `11_dilated_convolutions.ipynb` | Receptive fields, Multi-scale |[[Paper]](https://arxiv.org/pdf/1511.07122.pdf ) |
+| 12 | Neural Message Passing (GNNs) | ✅ `12_graph_neural_networks.ipynb` | Graph networks, Message passing |[[Paper]](https://arxiv.org/pdf/1704.01212.pdf ) |
+| 13 | **Attention Is All You Need** | ✅ `13_attention_is_all_you_need.ipynb` | Transformers, Self-attention, Multi-head |[[Paper]](https://arxiv.org/pdf/1706.03762.pdf ) |
+| 14 | Neural Machine Translation | ✅ `14_bahdanau_attention.ipynb` | Seq2seq, Bahdanau attention |[[Paper]](https://arxiv.org/pdf/1409.0473.pdf ) |
+| 15 | Identity Mappings in ResNet | ✅ `15_identity_mappings_resnet.ipynb` | Pre-activation, Gradient flow |[[Paper]](https://arxiv.org/pdf/1603.05027.pdf ) |
 
 ### Advanced Topics (Papers 16-22)
 
-| # | Paper | Notebook | Key Concepts |
-|---|-------|----------|--------------|
-| 16 | Relational Reasoning | ✅ `16_relational_reasoning.ipynb` | Relation networks, Pairwise functions |
-| 17 | **Variational Lossy Autoencoder** | ✅ `17_variational_autoencoder.ipynb` | VAE, ELBO, Reparameterization trick |
-| 18 | **Relational RNNs** | ✅ `18_relational_rnn.ipynb` | Relational memory, Multi-head self-attention, Manual backprop (~1100 lines) |
-| 19 | The Coffee Automaton | ✅ `19_coffee_automaton.ipynb` | Irreversibility, Entropy, Arrow of time, Landauer's principle |
-| 20 | **Neural Turing Machines** | ✅ `20_neural_turing_machine.ipynb` | External memory, Differentiable addressing |
-| 21 | Deep Speech 2 (CTC) | ✅ `21_ctc_speech.ipynb` | CTC loss, Speech recognition |
-| 22 | **Scaling Laws** | ✅ `22_scaling_laws.ipynb` | Power laws, Compute-optimal training |
+| # | Paper | Notebook | Key Concepts | Links |
+|---|-------|----------|--------------|-------|
+| 16 | Relational Reasoning | ✅ `16_relational_reasoning.ipynb` | Relation networks, Pairwise functions |[[Paper]](https://arxiv.org/pdf/1706.01427.pdf ) |
+| 17 | **Variational Lossy Autoencoder** | ✅ `17_variational_autoencoder.ipynb` | VAE, ELBO, Reparameterization trick |[[Paper]](https://arxiv.org/pdf/1611.02731.pdf ) |
+| 18 | **Relational RNNs** | ✅ `18_relational_rnn.ipynb` | Relational memory, Multi-head self-attention, Manual backprop (~1100 lines) |[[Paper]](https://arxiv.org/pdf/1806.01822.pdf ) |
+| 19 | The Coffee Automaton | ✅ `19_coffee_automaton.ipynb` | Irreversibility, Entropy, Arrow of time, Landauer's principle |[[Paper]](https://arxiv.org/pdf/1405.6903.pdf ) |
+| 20 | **Neural Turing Machines** | ✅ `20_neural_turing_machine.ipynb` | External memory, Differentiable addressing |[[Paper]](https://arxiv.org/pdf/1410.5401.pdf ) |
+| 21 | Deep Speech 2 (CTC) | ✅ `21_ctc_speech.ipynb` | CTC loss, Speech recognition |[[Paper]](https://arxiv.org/pdf/1512.02595.pdf ) |
+| 22 | **Scaling Laws** | ✅ `22_scaling_laws.ipynb` | Power laws, Compute-optimal training |[[Paper]](https://arxiv.org/pdf/2001.08361.pdf ) |
 
 ### Theory & Meta-Learning (Papers 23-30)
 
-| # | Paper | Notebook | Key Concepts |
-|---|-------|----------|--------------|
-| 23 | MDL Principle | ✅ `23_mdl_principle.ipynb` | Information theory, Model selection, Compression |
-| 24 | **Machine Super Intelligence** | ✅ `24_machine_super_intelligence.ipynb` | Universal AI, AIXI, Solomonoff induction, Intelligence measures, Self-improvement |
-| 25 | Kolmogorov Complexity | ✅ `25_kolmogorov_complexity.ipynb` | Compression, Algorithmic randomness, Universal prior |
-| 26 | **CS231n: CNNs for Visual Recognition** | ✅ `26_cs231n_cnn_fundamentals.ipynb` | Image classification pipeline, kNN/Linear/NN/CNN, Backprop, Optimization, Babysitting neural nets |
-| 27 | Multi-token Prediction | ✅ `27_multi_token_prediction.ipynb` | Multiple future tokens, Sample efficiency, 2-3x faster |
-| 28 | Dense Passage Retrieval | ✅ `28_dense_passage_retrieval.ipynb` | Dual encoders, MIPS, In-batch negatives |
-| 29 | Retrieval-Augmented Generation | ✅ `29_rag.ipynb` | RAG-Sequence, RAG-Token, Knowledge retrieval |
-| 30 | Lost in the Middle | ✅ `30_lost_in_middle.ipynb` | Position bias, Long context, U-shaped curve |
-
+| # | Paper | Notebook | Key Concepts | Links |
+|---|-------|----------|--------------|-------|
+| 23 | MDL Principle | ✅ `23_mdl_principle.ipynb` | Information theory, Model selection, Compression |[[Paper]](https://arxiv.org/pdf/math/0406077.pdf ) |
+| 24 | **Machine Super Intelligence** | ✅ `24_machine_super_intelligence.ipynb` | Universal AI, AIXI, Solomonoff induction, Intelligence measures, Self-improvement |[[Book]](https://www.vetta.org/documents/Machine_Super_Intelligence.pdf ) |
+| 25 | Kolmogorov Complexity | ✅ `25_kolmogorov_complexity.ipynb` | Compression, Algorithmic randomness, Universal prior |[[Book]](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf ) |
+| 26 | **CS231n: CNNs for Visual Recognition** | ✅ `26_cs231n_cnn_fundamentals.ipynb` | Image classification pipeline, kNN/Linear/NN/CNN, Backprop, Optimization, Babysitting neural nets |[[Course]](https://cs231n.github.io/ ) |
+| 27 | Multi-token Prediction | ✅ `27_multi_token_prediction.ipynb` | Multiple future tokens, Sample efficiency, 2-3x faster | |
+| 28 | Dense Passage Retrieval | ✅ `28_dense_passage_retrieval.ipynb` | Dual encoders, MIPS, In-batch negatives | |
+| 29 | Retrieval-Augmented Generation | ✅ `29_rag.ipynb` | RAG-Sequence, RAG-Token, Knowledge retrieval | |
+| 30 | Lost in the Middle | ✅ `30_lost_in_middle.ipynb` | Position bias, Long context, U-shaped curve | |
 ## Featured Implementations
 
 ### 🌟 Must-Read Notebooks
